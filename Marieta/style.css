@@ -1,0 +1,38 @@
+body {
+    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.love-container {
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid pink;
+    background-color: white;
+    max-width: 600px;
+}
+
+.title {
+    color: hotpink;
+}
+
+.message, .heart-animation, .cute-animal {
+    margin-top: 20px;
+}
+
+#heart, .animal {
+    cursor: pointer;
+    width: 100px;
+    transition: transform 0.3s ease;
+}
+
+#heart:hover, .animal:hover {
+    transform: scale(1.2);
+}
+
+footer {
+    margin-top: 20px;
+    color: #555;
+}
